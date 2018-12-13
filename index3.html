@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Codigos Binarios</title>
+</head>
+
+<body>
+<center><h1><b>Codigos Binarios</b></h1></center>
+<p>•Código binario natural.
+Consiste en representar directamente el número decimal en binario, o lo que es lo mismo cada número decimal tiene su correspondiente en binario. Ejemplo 35(10 = 100011(2. </p>
+<p>•	Códigos BCD (Decimal codificado en binario).
+Con estos códigos, para representar un número decimal en binario, se transforman cada una de las cifras que constituyen el número decimal separadamente, en el caso anterior el número 35, transformado en binario sería el resultado de transformar primero 3, y después 5.</p>
+<p>•	Código BCD natural (8421).
+Es un código con peso o ponderado, es decir el número decimal equivalente es el resultado de sumar el valor de la posición de los dígitos binarios que constituyen el código. En este código los pesos de los dígitos son las potencias sucesivas de dos, es decir 23 (8), 22 (4), 21 (2) y 20 (1), como se puede observar de ahí viene el nombre del código. Es decir se transcriben las cifras decimales a binario y viceversa, según la posición que ocupan. Ejemplo 35 = 0011 0111. Es decir 3 (0011) y 5 (0101).</p>
+<p>•	Código Aiken (2421).
+También es un código ponderado, aunque ahora los pesos de las cifras según su posición serán: 2, 4, 2 y 1. Ejemplo 35 = 0011 1011. Es decir 3 (0011) y 5 (1011).</p>
+<p>•	Código exceso tres.
+Éste es un código no ponderado, para obtener la relación entre el código decimal y este binario, se suma a cada dígito tres y después se convierte el resultado obtenido en binario 8421. Ejemplo 35 = 0110 1000. Es decir 3 (0110) y 5 (1000).</p>
+<p>•	Código exceso tres paridad impar.
+En ocasiones se utilizan códigos que son especialmente útiles para algún cometido concreto, esto sucede con el código que vamos a analizar, se emplea para detectar si ha habido algún error en la transmisión de los datos codificados, de modo que emplea cinco dígitos en lugar de cuatro, pero de ellos el primero es un bit de paridad, para obligar a que cada grupo de cinco bits tenga un número impar de unos; si esto es así, es porque el dato transmitido es correcto, y entonces se procesa la información transmitida que es la que resulta de decodificar los cuatro últimos bits. Ejemplo 35 =1 0110 0 1000. Es decir 3 (1 0110) y 5 (0 1000).</p>
+<p>•	Código dos entre cinco.
+En los años 40 se utilizó un código más sofisticado llamado dos-entre-cinco, que se basa en que cada conjunto de cinco bits (llamado penta-bit) debe tener únicamente dos unos, uno entre los dos primeros bits y otro en los tres últimos, de forma que se podría detectar posibles errores cuando cada pentabit no cumple esta condición.</p>
+
+<p>También existen otros códigos que no solo son capaces de detectar errores, sino que también son capaces de corregirlos, como es el código de Hamming, formados por siete bits y que es probablemente el más empleado de este tipo.
+
+Otro tipo de códigos son los que tienen la característica de que entre una combinación y la siguiente solamente difieren en un bit, a los códigos que tienen esta característica se les llama progresivos, como es el caso del código Gray.
+
+Se llaman códigos reflejados, aquellos que tienen la característica de la combinación de dos números decimales que sumen nueve, se escriben igual sin más que cambiar 1 por 0 y 0 por 1. Esta característica la tienen los códigos Aiken y exceso tres, como puedes comprobar observando la tabla anterior.
+
+También existen códigos capaces de transmitir información no solo numérica, sino letras, símbolos, operaciones,... de ellos el más común es el código ASCII (American Standard Code for Information Interchange), que es el empleado por casi todos los sistemas informáticos.
+Se creó en 1963 por ASA (Comité Estadounidense de Estándares) para reordenar y expandir los caracteres y símbolos empleados en telegrafía por la compañía Bell, en la actualidad tiene 5852 combinaciones diferentes. </p>
+<iframe width="1519" height="586" src="https://www.youtube.com/embed/6pWYxVWUYeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
